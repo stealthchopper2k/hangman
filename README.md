@@ -17,8 +17,10 @@ This is an implementation of the Hangman game, where the computer thinks of a wo
 2. Check whether its in the word or not.
 3. If it is in the word, fill in the blanks and show current progress.
 
-## How to Play
+## How to Play Linux/Unix
 
-1. Download ```env2\bin\python -m pip install -r requirements.txt```
-2. Run ```./hangman.milestone_5.py```
+1. Make an environment ```python -m venv /path/to/new/virtual/environment```
+2. In Bash/Zsh terminal run env ```source <venv>/bin/activate```
+3. and Download ```python -m pip install -r requirements.txt```
+4. ```cd ./game``` Run ```./hangman.milestone_5.py```
 
